@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.animanga-cols {
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+}
+
+.animanga-cols-2 {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
